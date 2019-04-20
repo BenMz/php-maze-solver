@@ -1,0 +1,215 @@
+/* CSS crunched with Crunch - http://crunchapp.net/ */
+/**
+* Global Reset of all HTML Elements
+*
+* Resetting all of our HTML Elements ensures a smoother
+* visual transition between browsers. If you don't believe me,
+* try temporarily commenting out this block of code, then go
+* and look at Mozilla versus Safari, both good browsers with
+* a good implementation of CSS. The thing is, all browser CSS
+* defaults are different and at the end of the day if visual
+* consistency is what we're shooting for, then we need to
+* make sure we're resetting all spacing elements.
+*
+*/
+html,
+body {
+  border: 0;
+  font-family: "Helvetica-Neue", "Helvetica", Arial, sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+div,
+span,
+object,
+iframe,
+img,
+table,
+caption,
+thead,
+tbody,
+tfoot,
+tr,
+tr,
+td,
+article,
+aside,
+canvas,
+details,
+figure,
+hgroup,
+menu,
+nav,
+footer,
+header,
+section,
+summary,
+mark,
+audio,
+video {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+address,
+cit,
+code,
+del,
+dfn,
+em,
+ins,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+b,
+i,
+hr,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+legend,
+label {
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+}
+article,
+aside,
+canvas,
+figure,
+figure img,
+figcaption,
+hgroup,
+footer,
+header,
+nav,
+section,
+audio,
+video {
+  display: block;
+}
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+}
+table caption,
+table th,
+table td {
+  text-align: left;
+  vertical-align: middle;
+}
+a img {
+  border: 0;
+}
+:focus {
+  outline: 0;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+/*fin normalize*/
+
+/*Index*/
+.inputText {
+  font-family: "Helvetica-Neue", "Helvetica", Arial, sans-serif;
+  font-size: 1em;
+}
+.wrapper {
+  margin: 10px auto;
+  width: 600px;
+}
+
+
+.wrapper .formulario {
+  height: 250px;
+	
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  background-color: #f9f9f9;
+  text-align: right;
+  padding: 20px 20px 0 0;
+}
+.wrapper .formulario input {
+  font-family: inherit;
+  font-size: inherit;
+  display: block;
+  width: 400px;
+  float: left;
+  margin-bottom: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  resize: none;
+  padding: 5px;
+}
+.wrapper .formulario input[type="submit"] {
+  margin-left: 70px;
+  width: 500px;
+  color: #ffffff;
+  background-color: #1dacd6;
+}
+
+
+.wrapper .formulario label {
+  display: block;
+  width: 120px;
+  float: left;
+  margin-bottom: 10px;
+  font-size: 0.9em;
+  text-align: right;
+  padding-right: 20px;
+}
+
+
+.wrapper .formulario br {
+  clear: left;
+}
+
+.wrapper select{
+	float:left;
+}
+
+/*solveMaze*/
+
+.result td{
+	width:30px;
+	height:30px;
+}
+
+.blue{
+ background-color:blue;
+}
+.red{
+ background-color:red;
+}
+.green{
+ background-color:green;
+}
+.black{
+ background-color:black;
+}
